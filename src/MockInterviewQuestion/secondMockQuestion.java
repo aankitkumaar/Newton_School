@@ -1,4 +1,4 @@
-/*
+package MockInterviewQuestion;/*
 1.Maximum count of distinct sized subarrays with given sum.
 
         Desc:--
@@ -15,7 +15,8 @@
         Output: 5
 */
 
-public class secondMockQuestion {
+/*
+public class MockInterviewQuestion.secondMockQuestion {
     public static void main(String[] args) {
         int[] arr = {0, 1, 1 , 0};
         int k = 2;
@@ -39,7 +40,9 @@ public class secondMockQuestion {
             }
 
         }
-        /**/
+        */
+/**//*
+
         return count;
     }
     static boolean check(int[] arr, int l, int r,int k)
@@ -58,3 +61,37 @@ public class secondMockQuestion {
         }
     }
 }
+*/
+
+// Java program for the above approach
+import java.util.HashSet;
+
+class secondMockQuestion {
+    static int maxSubsetSize(int arr[], int N, int K) {
+        int length = arr.length;
+        int count=0;
+        while(length>0)
+        {
+            int sum=0;
+            for (int i = 0; i < length; i++) {
+               sum+=arr[i];
+            }
+            if(sum==K)
+            {
+                count++;
+                length--;
+                break;
+            }
+        }
+        return count;
+    }
+    public static void main(String args[]) {
+        int arr[] = { 0, 1, 1, 0 };
+        int N = arr.length;
+        int K = 2;
+
+        System.out.println(maxSubsetSize(arr, N, K));
+    }
+}
+
+

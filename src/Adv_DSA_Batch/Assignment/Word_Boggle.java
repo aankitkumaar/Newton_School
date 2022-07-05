@@ -1,7 +1,16 @@
+package Adv_DSA_Batch.Assignment;
+
+import java.io.IOException;
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class newMock {
-
+/*      4
+        GEEKS FOR QUIZ GO
+        3 3
+        G I Z
+        U E K
+        Q S E*/
+public class Word_Boggle {
     static boolean doFindWord(char[][] grid, String word, int nRow, int nCol, int i, int j, int level){
 
         //base condtion//
@@ -48,19 +57,39 @@ public class newMock {
         }
         return false;
     }
-    public static void main(String[] args) {
-        char [][] grid = {
-                {'A', 'B', 'C', 'E'},
-                {'S', 'F', 'C', 'S'},
-                {'A', 'D', 'E', 'E'}
-        };
-        int nRow = 3;
-        int nCol = 4;
-        if(doCheck(grid, "ABCC", nRow, nCol)){
-            System.out.println("I have found the word");
-        }else{
-            System.out.println("Word is not present");
+    public static void main(String[] args) throws IOException {
+        Scanner ob = new Scanner(System.in);
+        int n = ob.nextInt();
+        //String s = ob.nextLine();
+        String[] arr = new String[n];
+        //String whole_word = ob.nextLine();
+        for (int i = 0; i < n; i++) {
+            arr[i] = ob.next();
         }
-
+        int row = ob.nextInt();
+        int col = ob.nextInt();
+        char[][] grid = new char[row][col];
+        for (int i = 0; i < row; i++) {
+            //String temp = ob.nextLine();
+            //char[] wordperline = temp.trim().split(" ");
+            for (int j = 0; j < col; j++) {
+                grid[i][j] = ob.next().charAt(0);
+            }
+           // System.out.println();
+        }
+        /*char [][] grid2 = {
+                {'G', 'I', 'Z'},
+                {'U', 'E', 'K'},
+                {'Q', 'S', 'E'}
+        };*/
+        //System.out.println(Arrays.toString(arr));
+        for (int i = 0; i < n; i++) {
+            String temp = arr[i];
+            System.out.println(temp);
+            if(doCheck(grid, temp, row, col)) {
+                System.out.println(temp + " ");
+            }
+        }
     }
+
 }
