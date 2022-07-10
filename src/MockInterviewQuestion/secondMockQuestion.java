@@ -67,23 +67,33 @@ public class MockInterviewQuestion.secondMockQuestion {
 import java.util.HashSet;
 
 class secondMockQuestion {
-    static int maxSubsetSize(int arr[], int N, int K) {
+    static int maxSubsetSize(int arr[], int N, int k) {
         int length = arr.length;
+        int sum =0;
         int count=0;
-        while(length>0)
-        {
-            int sum=0;
-            for (int i = 0; i < length; i++) {
-               sum+=arr[i];
-            }
-            if(sum==K)
+        int ptr = 0;
+        HashSet<Integer> s = new HashSet<Integer>();
+        for (int i = 0; i < length; i++) {
+            sum+= arr[i];
+            if(sum<k) continue;
+            if(sum>k)
             {
-                count++;
-                length--;
-                break;
+                while(sum>k)
+                {
+                    sum-=arr[ptr++];
+                }
+            }
+            if(sum==k)
+            {
+                s.add(i - ptr + 1);
+                int t = ptr;
+                while (arr[t] == 0) {
+                    s.add(i - t);
+                    t++;
+                }
             }
         }
-        return count;
+        return s.size();
     }
     public static void main(String args[]) {
         int arr[] = { 0, 1, 1, 0 };

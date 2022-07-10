@@ -1,5 +1,8 @@
 package LinklistProblem;
 
+import java.util.ArrayList;
+import java.util.*;
+
 public class ImplemantionOfLinklist {
     static Node head;
 
@@ -52,6 +55,34 @@ public class ImplemantionOfLinklist {
         head = prev;
 
     }
+    static void swip(int k)
+    {
+        int count = 1;
+        Node curr = head;
+        while(curr!=null)
+        {
+            count++;
+            curr= curr.next;
+        }
+        Node curr1 = head;
+        int arr[] = new int[count-1];
+        int i=0;
+         while(curr1!=null)
+         {
+             arr[i] = curr1.val;
+             curr1 = curr1.next;
+             i++;
+         }
+        System.out.println(Arrays.toString(arr));
+         swap(arr,k,count-k-1);
+        System.out.println(Arrays.toString(arr));
+    }
+    static void swap(int[] arr, int a,int b)
+    {
+       int temp = arr[a];
+       arr[a] = arr[b];
+       arr[b] = temp;
+    }
 
     public static void main(String[] args) {
         ImplemantionOfLinklist ob = new ImplemantionOfLinklist();
@@ -65,7 +96,7 @@ public class ImplemantionOfLinklist {
         ob.additem(0);
         ob.print();
         System.out.println();
-        ob.reverse();
-        ob.print();
+       // ob.reverse();
+        ob.swip(2);
     }
 }

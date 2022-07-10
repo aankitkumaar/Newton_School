@@ -2,8 +2,8 @@ package Adv_DSA_Batch.Assignment;
 
 public class SubSetSumProblem {
     public static void main(String[] args) {
-        int arr[] = {2,3,7,8,10};
-        int sum = 26;
+        int arr[] = {2,3,5,6,8,10};
+        int sum = 10;
         int n = arr.length;
         System.out.println(KnapSack(arr,sum,n));
     }
