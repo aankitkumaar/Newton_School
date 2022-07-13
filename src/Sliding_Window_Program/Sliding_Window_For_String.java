@@ -2,7 +2,7 @@ package Sliding_Window_Program;
 //find the different size of window with havinf unique char in that window
 import java.util.*;
 
-public class Sliding_Windew_For_String {
+public class Sliding_Window_For_String {
     public static void main(String[] args) {
         String str = "aabbccd";
         int n= str.length();

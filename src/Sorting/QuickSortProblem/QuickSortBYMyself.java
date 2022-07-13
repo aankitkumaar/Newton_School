@@ -2,7 +2,7 @@ package Sorting.QuickSortProblem;
 
 import java.util.Arrays;
 
-public class QuickSortByHimself {
+public class QuickSortBYMyself {
     public static void main(String[] args) {
         int arr[] = {7, 9, 1, 5, 9, 2, 5, 0, 3, 5, 8, 9, 33, 55, 6};
         int n = arr.length;
