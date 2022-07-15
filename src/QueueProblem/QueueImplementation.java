@@ -1,4 +1,4 @@
-package Queue;
+package QueueProblem;
 
 public class QueueImplementation {
     int front;

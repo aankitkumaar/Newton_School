@@ -1,4 +1,4 @@
-package Queue;
+package QueueProblem;
 
 public class QueueImplementationAnotherWay {
         int front;
@@ -49,7 +49,7 @@ public class QueueImplementationAnotherWay {
 
         //--> [f.......r] -->
         public static void main(String[] args) {
-            QueueImplementationAnotherWay que = new Queue.QueueImplementationAnotherWay(10);
+            QueueImplementationAnotherWay que = new QueueProblem.QueueImplementationAnotherWay(10);
             que.enqueueFromfrontside(3);
             que.enqueueFromfrontside(78);
             que.enqueueFromfrontside(35);

@@ -1,6 +1,5 @@
 
-package LinklistProblem;
-import java.util.*;
+package LinkedlistProblem;
 
 public class GetValueAtiIndex {
 
