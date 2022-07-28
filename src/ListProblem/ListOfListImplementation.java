@@ -10,7 +10,6 @@ public class ListOfListImplementation {
         List<Integer> ob = new ArrayList<Integer>();
         BufferedReader bob = new BufferedReader(new InputStreamReader(System.in));
         int a = Integer.valueOf(bob.readLine());
-        ob.add(a);
         for(int object : ob)
         {
             System.out.println(object);
