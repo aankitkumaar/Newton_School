@@ -1,3 +1,5 @@
+package MockInterviewQuestion;
+
 import java.util.Scanner;
 
 public class mockquestion {

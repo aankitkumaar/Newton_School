@@ -1,3 +1,5 @@
+package MockInterviewQuestion;
+
 import java.util.Arrays;
 
 public class NewtonSchoolMock {

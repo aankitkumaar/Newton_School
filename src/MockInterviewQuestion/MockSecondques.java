@@ -1,4 +1,4 @@
-
+package MockInterviewQuestion;
 /*
 Count the Number of Consistent Strings
 

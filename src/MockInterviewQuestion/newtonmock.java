@@ -1,3 +1,5 @@
+package MockInterviewQuestion;
+
 public class newtonmock {
 
     static Node head;
