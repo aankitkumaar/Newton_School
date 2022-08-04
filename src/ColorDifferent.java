@@ -19,7 +19,7 @@ public class Main {
 }
 
 
-// second method
+// RemoveTheFirstNonRepatingElement method
 
 import java.io.*; // for handling input/output
         import java.util.*; // contains Collections framework

@@ -20,8 +20,8 @@ class Main7 {
             R[i] = arr[m + i + 1];
            // System.out.println(Arrays.toString(R));
         }
-        int i = 0;//starting index for first temp array
-        int j = 0;//starting index for second temp array
+        int i = 0;//starting index for DecodeTheString temp array
+        int j = 0;//starting index for RemoveTheFirstNonRepatingElement temp array
         int k = l;// starting index of merged array
         int swaps =0;
         while (i < n1 && j < n2) {

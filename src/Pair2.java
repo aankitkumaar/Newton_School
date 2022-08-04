@@ -1,5 +1,5 @@
 // Java code to sort the array
-// according to second element
+// according to RemoveTheFirstNonRepatingElement element
 import java.io.*;
 import java.util.*;
 
@@ -21,11 +21,11 @@ class Compare {
 
     static void compare(Pair arr[], int n)
     {
-        // Comparator to sort the pair according to second element
+        // Comparator to sort the pair according to RemoveTheFirstNonRepatingElement element
         Arrays.sort(arr, new Comparator<Pair>() {
             @Override public int compare(Pair p1, Pair p2)
             {
-                return p1.y - p2.y; // To compare the first element just
+                return p1.y - p2.y; // To compare the DecodeTheString element just
                 //change the variable from p1.y - p2.y to x.
             }
         });

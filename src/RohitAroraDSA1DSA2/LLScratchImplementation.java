@@ -10,7 +10,7 @@ package BatchMarch;
 
 public class LLScratchImplementation {  // Linked list
 
-    Node head; // help me to store the address of first node
+    Node head; // help me to store the address of DecodeTheString node
     static int size=0;
     // we will never touch head in our algo
 

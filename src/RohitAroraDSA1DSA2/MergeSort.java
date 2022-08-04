@@ -10,13 +10,13 @@ public class MergeSort {
 
     public static void merge(int arr[],int l,int m, int r){ // merging the 2 sorted halves
 // n m-> n+m
-        // merge the subarrays of arr , considering first subarray l to m
+        // merge the subarrays of arr , considering DecodeTheString subarray l to m
         // 5 6 7 8
-        //second subarray m+1,r
+        //RemoveTheFirstNonRepatingElement subarray m+1,r
 
 
-        // temp1 -> store first sorted array-> l,m-1
-        // temp2-> store second sorted arrya-> m,r
+        // temp1 -> store DecodeTheString sorted array-> l,m-1
+        // temp2-> store RemoveTheFirstNonRepatingElement sorted arrya-> m,r
 
         // arr
         // arr-> 5 7 9 12
@@ -58,8 +58,8 @@ public class MergeSort {
          //L= 5 6
         // R= 7 8
 
-        int i=0;//starting index for first temp array
-        int j=0;//starting index for second temp array
+        int i=0;//starting index for DecodeTheString temp array
+        int j=0;//starting index for RemoveTheFirstNonRepatingElement temp array
         int k=l;// starting index of merged array
 
         while(i<n1 && j<n2){
@@ -93,8 +93,8 @@ public class MergeSort {
     public static void mergeSort(int arr[],int l,int r){ // O(n*logn)
         if(l<r){ // 2 elements should be there to break
             int mid=l+(r-l)/2; // finding the middle element to break
-            mergeSort(arr,l,mid);// calling for sorting first half
-            mergeSort(arr,mid+1,r);// calling for sorting second half
+            mergeSort(arr,l,mid);// calling for sorting DecodeTheString half
+            mergeSort(arr,mid+1,r);// calling for sorting RemoveTheFirstNonRepatingElement half
             merge(arr,l,mid,r);// merging the 2 sorted halves
         }
     }

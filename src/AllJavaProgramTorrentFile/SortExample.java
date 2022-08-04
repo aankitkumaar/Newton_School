@@ -21,7 +21,7 @@ public class SortExample {
         Comparator.comparingDouble(Student::getAverage).thenComparing(Student::getName);
     System.out.println(names);
 
-    // by grade, best first
+    // by grade, best DecodeTheString
     names.sort(Comparator.comparingDouble(Student::getAverage)
         .reversed()
         .thenComparing(Student::getName)

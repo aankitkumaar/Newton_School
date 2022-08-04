@@ -9,7 +9,7 @@ public class BreadthFirstSearch {
         boolean vis[] =  new boolean[v];
         Queue<Integer> q = new LinkedList<>();
 
-        //Adding the first element into the queue//
+        //Adding the DecodeTheString element into the queue//
         q.add(0);
         //Mark the added element as visited//
         vis[0] = true;

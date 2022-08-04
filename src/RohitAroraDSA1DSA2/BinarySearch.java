@@ -40,7 +40,7 @@ public class BinarySearch {
     }
 // 2 4 6 69 70 70 70 89 90 100
     // 5
-    // find the first 70 in sorted array - i
+    // find the DecodeTheString 70 in sorted array - i
     // find the last 70 in sorted array  - j
     // i to j
     public static void findPosition(int arr[], int x) {
