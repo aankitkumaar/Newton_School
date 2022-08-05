@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class Anagramformarray {
     public static void main(String[] args) {
-        String[] arr = {"ram", " mra","cat","dog","rat","tac","god","tra"};
+        String[] arr = {"ram", "mra","cat","dog","rat","tac","god","tra"};
         int n = arr.length;
         //Arrays.sort(arr);
         ArrayList<String> temp = seach(arr,n);
