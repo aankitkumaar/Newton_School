@@ -41,6 +41,26 @@ public class HightOfTree {
         doPrintelement(node.left,level-1);
         doPrintelement(node.right,level-1);
     }
+    //static int total_sum = 0;
+    static int sumofnode(Node root)
+    {
+        if(root==null) return 0;
+        //if(root!=null) return root.data;
+        return root.data+sumofnode(root.left)+sumofnode(root.right);
+    }
+    static int sumofleft(Node root)
+    {
+        if(root==null) return 0;
+        //if(root!=null) return root.data;
+        return root.data+sumofnode(root.left);
+    }
+    static int sumofright(Node root)
+    {
+        if(root==null) return 0;
+        //if(root!=null) return root.data;
+        return root.data+sumofnode(root.right);
+    }
+
 
     public static void main(String[] args) {
         HightOfTree ob = new HightOfTree();
@@ -58,6 +78,9 @@ public class HightOfTree {
         System.out.println("Level of tree : " + (ob.findHight(root)+1));
         levelordertravelsal(root,level);
         System.out.println(sum);
+        System.out.println(sumofnode(root));
+        System.out.println(sumofleft(root));
+        System.out.println(sumofright(root));
 
     }
 

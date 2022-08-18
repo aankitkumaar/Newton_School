@@ -13,8 +13,8 @@ import java.util.Arrays;
         {
             arraylist.add(a);
         }
-        arraylist.add(0,17);
         System.out.println(arraylist);
+
         Stack<Integer> stack = new Stack<>();
         stack.push(7);
         System.out.println(stack.pop());

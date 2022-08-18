@@ -12,6 +12,8 @@ class AbhishekHashing {
         int t = sc.nextInt();
         int arr[] = new int[n];
         HashMap<Integer,Integer> map = new HashMap<>();
+        HashSet<Character> set = new HashSet<>();
+        ArrayList<Character> list = new ArrayList<>();
         int count = 0;
         for( int i=0; i<n; i++ ) {
             arr[i] = sc.nextInt();
