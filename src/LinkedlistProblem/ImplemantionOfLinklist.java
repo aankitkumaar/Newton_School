@@ -83,19 +83,55 @@ public class ImplemantionOfLinklist {
        arr[b] = temp;
     }
 
+    static public int indexElement(int index)
+    {
+        return 1;
+    }
+    static public void removeLast()
+    {
+        if(head==null) return;
+
+        Node curr = head;
+        Node prev = curr;
+        while(curr.next!=null)
+        {
+            prev = curr;
+            curr = curr.next;
+        }
+        prev.next = null;
+    }
+    static public void additemInlast(int val)
+    {
+        Node newNode = new Node(val);
+        Node curr= head;
+        while(curr.next!=null)
+        {
+            curr = curr.next;
+        }
+        curr.next = newNode;
+        newNode.next = null;
+
+    }
     public static void main(String[] args) {
         ImplemantionOfLinklist ob = new ImplemantionOfLinklist();
         ob.additem(6);
-        ob.print();
-        System.out.println();
+        //ob.print();
+        //System.out.println();
         ob.additem(8);
         ob.additem(7);
         ob.additem(2);
         ob.additem(9);
-        ob.additem(0);
+        ob.additem(88);
         ob.print();
         System.out.println();
        // ob.reverse();
-        ob.swip(2);
+       // ob.swip(2);
+
+        indexElement(5);
+        removeLast();
+        print();
+        System.out.println();
+        System.out.println(head.val);
+        additemInlast(55);
     }
 }
