@@ -1,0 +1,8 @@
+
+o
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡Ö­
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°ƒò¬ûÿÿÿÿ
+T
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(Ï­¸Èúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ

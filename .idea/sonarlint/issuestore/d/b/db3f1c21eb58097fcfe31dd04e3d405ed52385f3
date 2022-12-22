@@ -1,0 +1,21 @@
+
+t
+java:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(À÷Ş„ıÿÿÿÿ
+k	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÏ’ùÿÿÿÿ
+k	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‡…İûÿÿÿÿ
+k	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸õÚæøÿÿÿÿ
+g	java:S101E"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‡ú×–ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–»æ¡
+P	java:S125"<This block of commented-out lines of code should be removed.(ôì¹p
+Q	java:S125."<This block of commented-out lines of code should be removed.(¿¡‚ü
+C
+java:S1172F"(Remove this unused method parameter "N".(ŞÏ’ùÿÿÿÿ
+E
+java:S1197F"*Move the array designators [] to the type.(ŞÏ’ùÿÿÿÿ
+@
+java:S1481I"*Remove this unused "count" local variable.(æÕ¿¼
+E
+java:S1197b"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+E
+java:S1197c"*Move the array designators [] to the type.(Ø¶Òêüÿÿÿÿ
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(Á©ú¿ûÿÿÿÿ

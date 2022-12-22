@@ -1,0 +1,32 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é™ş
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıñå¸
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(³æ••ıÿÿÿÿ
+Q	java:S125,"<This block of commented-out lines of code should be removed.(ï°Ê
+@
+java:S1197D"*Move the array designators [] to the type.(®–Ì
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(×Æáî
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(×Æáî
+P
+java:S2209Y"5Change this instance-reference to a static reference.(¢‚Â¥şÿÿÿÿ
+K
+java:S2209Z"5Change this instance-reference to a static reference.(©Õø
+S	java:S106["9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+K
+java:S2209\"5Change this instance-reference to a static reference.(”öœê
+P
+java:S2209]"5Change this instance-reference to a static reference.(úÇÁ÷ùÿÿÿÿ
+P
+java:S2209^"5Change this instance-reference to a static reference.(î®äïüÿÿÿÿ
+K
+java:S2209_"5Change this instance-reference to a static reference.(Î”¦æ
+J
+java:S2209`"5Change this instance-reference to a static reference.(ë¹á4
+K
+java:S2209a"5Change this instance-reference to a static reference.(©Õø
+Z	java:S106b"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ë»¶0
+P
+java:S2209d"5Change this instance-reference to a static reference.(®¶ØŸşÿÿÿÿ
+V	java:S125c"<This block of commented-out lines of code should be removed.(’Øè˜øÿÿÿÿ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ã¼¶0
